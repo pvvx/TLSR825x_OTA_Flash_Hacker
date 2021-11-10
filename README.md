@@ -10,7 +10,7 @@ Read firmware via BLE, restore and patch the original firmware, ...
 5. Restore original firmware boot: key "Change Start Boot". Or write a new fw: Read fw file, "Clear OTA Area", "Start Flashing"
 6. Close "TLSR825xOTA_Hacker".
 
-![png](https://github.com/pvvx/TLSR825x_OTA_Flash_Hacker/blob/master/work.png)
+![png](https://github.com/pvvx/TLSR825x_OTA_Flash_Hacker/blob/main/work.png)
 
 #### Building the firmware
 
