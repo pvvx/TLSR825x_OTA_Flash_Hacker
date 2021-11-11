@@ -162,12 +162,12 @@ void rdfb(void) {
 		send_buf[2] = (uint8_t)(fmem_adr >> 8);
 		send_buf[3] = (uint8_t)(fmem_adr >> 16);
 
-		flash_read_page(fmem_adr, 16, &send_buf[4]);
+		flash_read_page(fmem_adr, olen, &send_buf[4]);
 
 		fmem_adr += olen;
 		rd_fmem_size -= olen;
 
-		bls_att_pushNotifyData(RxTx_CMD_OUT_DP_H, send_buf, 16 + 4);
+		bls_att_pushNotifyData(RxTx_CMD_OUT_DP_H, send_buf, olen + 4);
 	}
 	if(rd_fmem_size == 0)
 		bls_pm_setManualLatency(99);
