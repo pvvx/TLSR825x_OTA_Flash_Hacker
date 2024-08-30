@@ -7,8 +7,8 @@ Read Full Flash and restore old firmware:
 
 1. Using [TelinkMiFlasher](https://pvvx.github.io/ATC_MiThermometer/TelinkMiFlasher.html) or [TelinkOTA](https://pvvx.github.io/ATC_MiThermometer/TelinkOTA.html) download '[BLE-Hacker.bin](https://github.com/pvvx/TLSR825x_OTA_Flash_Hacker/raw/main/BLE-Hacker.bin)'
 2. Using [TLSR825xOTA_Hacker](https://pvvx.github.io/CGPR1/TLSR825xOTA_Hacker.html) connect to the appeared device "BLE_xxxxxx"
-3. Restore original firmware boot: key "Change Start Boot"
-4. Read the entire Flash into a file: "Read Full Flash" and "Save to File"
+3. Read the entire Flash into a file: "Read Full Flash" and "Save to File"
+4. Restore original firmware boot: key "Change Start Boot"
 5. Close "TLSR825xOTA_Hacker"
 
 ![png](https://github.com/pvvx/TLSR825x_OTA_Flash_Hacker/blob/main/work.png)
